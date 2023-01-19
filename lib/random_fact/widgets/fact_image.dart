@@ -31,7 +31,11 @@ class FactImage extends StatelessWidget {
         );
       },
       errorBuilder: (context, Object exception, StackTrace? stackTrace) {
-        return const Text('ðmmmm¢');
+        return const Icon(
+          Icons.image_outlined,
+          size: 60.0,
+          color: Colors.grey,
+        );
       },
     );
   }

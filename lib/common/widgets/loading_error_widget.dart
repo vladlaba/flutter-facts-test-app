@@ -4,9 +4,9 @@ class LoadingErrorWidget extends StatelessWidget {
   final String message;
 
   const LoadingErrorWidget({
-    Key? key,
+    super.key,
     required this.message,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -9,7 +9,7 @@ import 'package:flutter_facts_test_app/facts_history/strings/facts_history_page_
 import 'package:flutter_facts_test_app/facts_history/widgets/fact_history_list_view.dart';
 
 class FactsHistoryPage extends StatefulWidget {
-  const FactsHistoryPage({Key? key}) : super(key: key);
+  const FactsHistoryPage({super.key});
 
   @override
   State<FactsHistoryPage> createState() => _FactsHistoryPageState();

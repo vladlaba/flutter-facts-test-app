@@ -11,7 +11,7 @@ class LoadingProgress extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox.square(
-      dimension: 120.0,
+      dimension: 80.0,
       child: CircularProgressIndicator(
         strokeWidth: 8.0,
         value: value,
